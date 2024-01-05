@@ -1,0 +1,28 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/RomiDrivetrain/Motors": "DifferentialDrive",
+      "/LiveWindow/RomiLED/kGREEN": "Digital Output",
+      "/LiveWindow/RomiLED/kRED": "Digital Output",
+      "/LiveWindow/RomiLED/kYELLOW": "Digital Output",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive"
+    }
+  },
+  "NetworkTables": {
+    "transitory": {
+      "LiveWindow": {
+        ".status": {
+          "open": true
+        },
+        "RomiDrivetrain": {
+          "open": true
+        },
+        "open": true
+      },
+      "SmartDashboard": {
+        "open": true
+      }
+    }
+  }
+}
